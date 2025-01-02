@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/common/Header.css'
 import HeaderLogo from '../../assets/images/Logo(Yellow).png'; 
-import Hamburger from '../../assets/images/hamburger.png' 
+import Hamburger from '../../assets/images/햄부기.png' 
 
 const Header = () => {
   return (
