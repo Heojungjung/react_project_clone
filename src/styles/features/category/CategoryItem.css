@@ -1,0 +1,29 @@
+.categoryItems{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 10px;
+  margin-top: 40px;
+}
+
+.category{
+  height: 44px;
+  padding: 0 24px;
+  color: #999;
+  font-size: 20px;
+  font-weight: 400;
+  background: #F5F5F5;
+  border-radius: 44px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  letter-spacing: -0.8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category:hover{
+  color: #fff;
+  font-weight: 600;
+  background-color: #CC002F;
+}
