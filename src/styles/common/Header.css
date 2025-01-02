@@ -40,8 +40,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  width: clamp(19px, 5.8vw, 28px);
-  height: clamp(16px, 4.6vw, 22px);
+  width: 28px;
+  height: 22px;
   font-size: 0;
   cursor: pointer;
 }
