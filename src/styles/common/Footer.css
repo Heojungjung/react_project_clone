@@ -1,0 +1,136 @@
+.footer{
+  background-color: #161616;
+  display: block;
+  width: 480px;
+}
+
+
+.footer-wrap{
+  padding: 40px 48px;
+}
+
+.footer-top>.title{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+.footer-top>.tel{
+  display: block;
+  margin: 14px 0 0;
+  color: #fff;
+  font-size:28px;
+  font-weight: 600;
+  line-height: 1;
+}
+.footer-top>.info{
+  margin: 14px 0 0;
+  color: #7e7e7e;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.72px;
+}
+
+.footer-mid{
+  padding-top: 34px;
+  margin-top: 34px;
+  border-top: 1px solid #434343;
+}
+
+.footer-mid>.title{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+.footer-mid>.tel{
+  display: block;
+  margin: 14px 0 0;
+  color: #fff;
+  font-size:28px;
+  font-weight: 600;
+  line-height: 1;
+}
+.footer-mid>.info{
+  margin: 14px 0 0;
+  color: #7e7e7e;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.72px;
+}
+
+.footer-bottom{
+  padding-top: 34px;
+  margin-top: 34px;
+  border-top: 1px solid #434343;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: column;
+}
+.footer-bottom>.logo-area{
+  width: 126px;
+  height: 37px;
+}
+.footer-bottom>.logo-area>img{
+  width: inherit;
+  height: inherit;
+}
+.footer-bottom>.footer-rules{
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% + clamp(27px, 8vw, 40px));
+  margin-left: clamp(-20px, -4.2vw, -14px);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-bottom>.footer-rules>.item{
+  flex: auto;
+  position: relative;
+  margin: clamp(7px, 2.1vw, 10px) 0 clamp(14px, 4.2vw, 20px);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  color: white;
+}
+
+.footer-bottom>.footer-rules>.item:nth-child(n+2):before{ 
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: clamp(10px, 2.9vw, 14px);
+    border-left: 1px solid #a8a8a8;
+}
+
+.footer-bottom>.footer-address{
+  font-size: 16px;
+  color: #7F7F7F;
+  word-break: keep-all;
+}
+
+.footer-bottom>.footer-copyright{
+  padding-top: 20px;
+  font-weight: 400;
+  color: #7e7e7e;
+  font-size: 14px;
+}
+
+
+.footer-bottom>.footer-icons{
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+.footer-bottom>.footer-icons>.icon{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.footer-bottom>.footer-icons>.icon>img{
+  width: inherit;
+  height: inherit;
+} 

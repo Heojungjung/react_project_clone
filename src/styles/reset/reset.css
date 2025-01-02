@@ -101,8 +101,8 @@ button {
 input:focus{
   outline: none;
 }
-.main-layout{
-  max-width: 1044px;
-  width: 100%;
-  margin: 0 auto;
-}
+
+body{
+	max-width: 1044px;
+	width: 100%;
+	margin: 0 auto;}
