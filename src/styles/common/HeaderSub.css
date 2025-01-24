@@ -1,0 +1,75 @@
+.header-sub>.header-wrap {
+  width: 480px;
+  background-color: white;
+  padding: 10px 30px;
+  height: auto;
+}
+
+.header-sub>.header-wrap>.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-sub>.header-wrap>.header-top>.top-logo>a>img{
+  width: auto;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-sub>.header-wrap>.header-left{
+  margin-right: auto;
+}
+.header-sub>.header-wrap>.header-right{
+  margin-left: auto;
+}
+
+.header-sub>.header-wrap>.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  cursor: pointer;
+}
+
+
+.header-sub>.header-wrap>.header-top>.hamburger-menu>img{
+  width: inherit;
+  height: inherit;
+}
+
+
+.header-sub>.header-wrap>.header-top>.header-right>.shoppingcart{
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.header-sub>.header-wrap>.header-top>.header-right>.shoppingcart>a{
+  width: inherit;
+  height: inherit;
+}
+
+.header-sub>.header-wrap>.header-top>.header-right>.shoppingcart>a>img{
+  width: inherit;
+  height: inherit;
+}
+
+.cart-num-sub{
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  background-color:#CC002F;
+  color: white;
+  font-size: 8px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

@@ -1,0 +1,83 @@
+.BestProducts {
+  padding: 40px 0px;
+}
+
+.BestProducts > .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.BestProducts span {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.BestProducts span b{
+  font-style: normal;
+  color: #cc002f;
+  font-weight: 600;
+}
+
+.BestProducts > .title > h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  width: fit-content;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.BestProducts > .title > h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background: #cc002f;
+}
+
+.BestProducts .Best-category-tap {
+  margin-bottom: 36px;
+}
+.BestProducts .Best-category-tap.active {
+  cursor: grabbing;
+}
+
+.BestProducts .Best-category-tap .category-wrap{
+  display: flex;
+  scrollbar-width: none;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+
+.Best-category-item{
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  letter-spacing: -0.8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Best-category-item.active{
+  color: #cc002f;
+  font-weight: 700;
+  border-bottom: 1px solid #cc002f;
+}
+
+.product-list{
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+

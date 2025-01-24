@@ -1,11 +1,6 @@
 import React from 'react'
 import '../../styles/common/Footer.css'
-import BottomLogo from '../../assets/images/Logo(white).png'; 
-import KakaoIcon from '../../assets/images/SnsImg_01.png';
-import FaceIcon from '../../assets/images/SnsImg_02.png';
-import NaverIcon from '../../assets/images/SnsImg_03.png';
-import InstaIcon from '../../assets/images/SnsImg_04.png';
-import YoutubIcon from '../../assets/images/SnsImg_05.png';
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -15,7 +10,7 @@ const Footer = () => {
           CS CENTER
         </div>
         <div className="tel">
-          1644 - 8198
+          010-5582-3984
         </div>
         <div className="info">
           <h4>평일 : 09:00 ~ 18:00 &#40; 점심 : 12:00 ~ 13:00 &#41; </h4>
@@ -26,7 +21,7 @@ const Footer = () => {
           BANK INFO
         </div>
         <div className="tel">
-          0123-4567-8901
+          940302-00-332670
         </div>
         <div className="info">
           <h4>국민은행 <br/>
@@ -35,7 +30,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className='logo-area'>
-          <img src={BottomLogo} alt="한끼닭로고"/>
+          <img src="/assets/images/Logo(white).png" alt="한끼닭로고"/>
         </div>
         <div className="footer-rules">
           <div className="item">
@@ -57,19 +52,19 @@ const Footer = () => {
           </div>
           <div className="footer-icons">
           <div className="icon">
-            <img src={KakaoIcon} alt="카톡" />
+            <img src="/assets/images/SnsImg_01.png" alt="카톡" />
           </div>
           <div className="icon">
-          <img src={FaceIcon} alt="페북" />
+          <img src="/assets/images/SnsImg_02.png" alt="페북" />
           </div>
           <div className="icon">
-          <img src={NaverIcon} alt="네이버" />
+          <img src="/assets/images/SnsImg_03.png" alt="네이버" />
           </div>
           <div className="icon">
-          <img src={InstaIcon} alt="인스타"/>
+          <img src="/assets/images/SnsImg_04.png" alt="인스타"/>
           </div>
           <div className="icon">
-          <img src={YoutubIcon} alt="유튭" />
+          <img src="/assets/images/SnsImg_05.png" alt="유튭" />
           </div>
           </div>
       </div>

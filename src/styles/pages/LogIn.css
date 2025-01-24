@@ -1,0 +1,137 @@
+.main-inner{
+}
+
+.main-inner>.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  font-size: 22px;
+  color:#424242;
+  font-weight: 400;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.login-area{
+  padding: 14px;
+  height: 300px;
+}
+.login-area>.loginHeader{
+  display: flex;
+  align-items:center;
+  margin-bottom: 10px;
+}
+.login-area>.loginHeader>.ssl{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.login-area>.loginHeader>.ssl>img{
+  width: 14px;
+}
+.login-area>.loginHeader>.ssl>em{
+  font-style: normal;
+  text-decoration: none;
+  font-size: 13px;
+  color: #757575;
+}
+
+
+.login-area>.view>.korean{
+  display: none;
+  position: absolute;
+  right: 13%;
+  top: 16%;
+}
+.login-area>.view>.korean.active{
+  display: block;
+}
+.keyboard-container>.keyboard>div.active>img{
+  rotate: 180deg;
+}
+.login-area>.view>.special{
+  display: none;
+  position: absolute;
+  right: 13%;
+  top: 16%;
+}
+
+.login-area>.view>.special.active{
+  display: block;
+}
+
+.keyboard-container{
+  margin-left: auto;
+}
+
+.keyboard-container>.keyboard{
+  height: 26px;
+  gap: 14px;
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard-container>.keyboard>div{
+  font-size: 11px;
+  color: #757575;
+  padding: 0 20px 0 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.keyboard-container>.keyboard>div>.keyboard-toggle{
+width: 13px;
+height: 8px;
+position: absolute;
+right: 0;
+top: 50%;
+margin: -3px 0 0;
+}
+
+.login-input-formbox{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-input-formbox>input{
+  font-size: 15px;
+  width: 100%;
+  height: 43px;
+}
+
+.login-input-formbox>input[type=text],.login-input-formbox>input[type=password]{
+  padding: 10px;
+  color: #353535;
+  border: 1px solid #d7d7d7;
+  outline-style: none;
+  box-sizing: border-box;
+}
+
+.login-input-formbox>.login-btn{
+  text-align: center;
+  height: 43px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.login-input-formbox>.sub-items{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.login-input-formbox>.sub-items>span{
+  color: #858585;
+  font-size: 13px;
+  position: relative;
+}
+.login-input-formbox>.sub-items>span:nth-child(1)::after,.login-input-formbox>.sub-items>span:nth-child(2)::after{
+  content: '|';
+  position: absolute;
+  right: -15%;
+}

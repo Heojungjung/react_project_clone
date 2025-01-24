@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/ProductImage01.png",
+    "title": "고단백 프로틴 화이트 초콜릿바 70g 대용량 세트",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/ProductImage02.png",
+    "title": "코코넛 밀크 프로틴바 12개 번들 세트",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/ProductImage03.png",
+    "title": "달콤한 오곡 곡물바 12개 번들 세트",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "33%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/ProductImage04.png",
+    "title": "토피넛 디저트 프로틴바 12개 번들 세트",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/ProductImage05.png",
+    "title": "[한끼닭] 닭가슴살 치킨 스냅랙 1EA",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" :  "간편 분식"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/ProductImage06.png",
+    "title": "[한끼닭] 닭가슴살 김치 볶음밥 300g",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" : "도시락/볶음밥"
+  },
+  {
+    "id": 7,
+    "image": "/assets/images/ProductImage07.png",
+    "title": "바닐라아이스크림 같이 생긴 닭가슴살",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/ProductImage08.png",
+    "title": "고품질 프리미엄 프로틴 도시락",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "20%",
+    "category" : "도시락/볶음밥"
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/ProductImage09.png",
+    "title": "한끼 닭가슴살 비빔 샐러드",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "22%",
+    "category" : "한끼닭 식단"
+  },
+  {
+    "id": 10,
+    "image": "/assets/images/ProductImage10.png",
+    "title": "떠먹는 오트밀",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%",
+    "category" :  "간편 분식"
+  },
+  {
+    "id": 15,
+    "image": "/assets/images/ProductImage22.png",
+    "title": "다이어트 리얼 닭가슴살 바",
+    "price": "40,000",
+    "originalPrice": "44,000",
+    "saleRate": "10%",
+    "category" :  "간편 분식"
+  },
+  {
+    "id": 16,
+    "image": "/assets/images/ProductImage20.png",
+    "title": "엄마의 한상 도시락",
+    "price": "15,000",
+    "originalPrice": "17,000",
+    "saleRate": "15%",
+    "category" : "도시락/볶음밥"
+  },
+  {
+    "id": 17,
+    "image": "/assets/images/ProductImage21.png",
+    "title": "진짜 生生 닭가슴살",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "13%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 18,
+    "image": "/assets/images/ProductImage19.png",
+    "title": "내일부터 다이어트 패키지",
+    "price": "35,000",
+    "originalPrice": "42,000",
+    "saleRate": "25%",
+    "category" : "도시락/볶음밥"
+  },
+  {
+    "id": 19,
+    "image": "/assets/images/ProductImage18.png",
+    "title": "닭다리 2가지 맛 세트",
+    "price": "15,000",
+    "originalPrice": "18,000",
+    "saleRate": "25%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 20,
+    "image": "/assets/images/ProductImage17.png",
+    "title": "이거 진짜에요? 닭가슴살 바삭칩",
+    "price": "30,000",
+    "originalPrice": "33,000",
+    "saleRate": "10%",
+    "category" :  "스낵/음료"
+  },
+  {
+    "id": 23,
+    "image": "/assets/images/ProductImage14.png",
+    "title": "[한끼닭] 냉혹한 닭가슴살 파티",
+    "price": "150,000",
+    "originalPrice": "200,000",
+    "saleRate": "20%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 24,
+    "image": "/assets/images/ProductImage12.png",
+    "title": "[한끼닭] 블랙페퍼 닭가슴살",
+    "price": "30,000",
+    "originalPrice": "35,000",
+    "saleRate": "15%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 25,
+    "image": "/assets/images/ProductImage13.png",
+    "title": "[한끼닭] 오리지널 닭가슴살",
+    "price": "28,000",
+    "originalPrice": "30,000",
+    "saleRate": "10%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 26,
+    "image": "/assets/images/ProductImage11.png",
+    "title": "[한끼닭] 종합 세트 패키지",
+    "price": "110,000",
+    "originalPrice": "130,000",
+    "saleRate": "20%",
+    "category" : "실온 닭가슴살"
+  },
+  {
+    "id": 27,
+    "image": "/assets/images/ProductImage16.png",
+    "title": "계란 푸짐 닭가슴살 샐러드",
+    "price": "54,000",
+    "originalPrice": "60,000",
+    "saleRate": "10%",
+    "category" : "한끼닭 식단"
+  },
+  {
+    "id": 28,
+    "image": "/assets/images/ProductImage15.png",
+    "title": "태국식 닭가슴살 샐러드",
+    "price": "34,000",
+    "originalPrice": "40,000",
+    "saleRate": "25%",
+    "category" : "한끼닭 식단"
+  }
+]

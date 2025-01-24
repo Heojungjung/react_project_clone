@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/ProductImage10.png",
+    "title": "[한끼닭] 고단백 프로 단백질바 70g 취향따라 골라담기",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/ProductImage09.png",
+    "title": "한끼 닭가슴살 오리지널 36팩",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/ProductImage08.png",
+    "title": "[한끼닭] 고단백 프로 단백질바 70g 취향따라 골라담기",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "33%"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/ProductImage07.png",
+    "title": "한끼 닭가슴살 오리지널 36팩",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/ProductImage06.png",
+    "title": "[한끼닭] 고단백 프로 단백질바 70g 취향따라 골라담기",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%"
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/ProductImage05.png",
+    "title": "한끼 닭가슴살 오리지널 36팩",
+    "price": "50,000",
+    "originalPrice": "60,000",
+    "saleRate": "17%"
+  }
+]

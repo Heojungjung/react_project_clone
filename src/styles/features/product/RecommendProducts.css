@@ -1,0 +1,99 @@
+.RecommendProduct {
+  padding: 40px 0px;
+}
+
+.RecommendProduct > .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.RecommendProduct span {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.RecommendProduct span b{
+  font-style: normal;
+  color: #cc002f;
+  font-weight: 600;
+}
+
+.RecommendProduct > .title > h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  width: fit-content;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.RecommendProduct > .title > h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background: #cc002f;
+}
+
+.RecommendProduct .category-tap {
+  cursor: grab;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  margin-bottom: 36px;
+}
+.RecommendProduct .category-tap.active {
+  cursor: grabbing;
+}
+
+.RecommendProduct .category-tap .category-wrap{
+  display: flex;
+  gap: 12px 10px;
+  scrollbar-width: none;
+  height: max-content;
+  width: max-content;
+}
+
+.category-item{
+  height: 44px;
+  padding: 0 24px;
+  border: 1px solid #999;
+  font-size: 20px;
+  font-weight: 400;
+  background: #ffffff;
+  color: #333;
+  border-radius: 44px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  letter-spacing: -0.8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.category-item.active{
+  border: 1px solid #cc002f;
+  color: white;
+  background-color: #cc002f;
+}
+
+
+
+.product-list{
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+

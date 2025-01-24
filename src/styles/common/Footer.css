@@ -2,8 +2,8 @@
   background-color: #161616;
   display: block;
   width: 480px;
+  position: relative;
 }
-
 
 .footer-wrap{
   padding: 40px 48px;

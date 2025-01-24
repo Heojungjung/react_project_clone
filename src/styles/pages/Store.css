@@ -1,0 +1,76 @@
+.top-menu{
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+}
+.top-menu .back-btn>img{
+  width: 12px;
+  height: 20px;
+}
+.top-menu h2{
+  color: #424242;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 0 61px;
+  text-align: center;
+  position: relative;
+  left: -4px;
+}
+
+.category-tap {
+  cursor: grab;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 30px;
+} 
+.category-tap.active {
+  cursor: grabbing;
+}
+.category-tap .category-wrap{
+  display: flex;
+  gap: 12px 10px;
+  scrollbar-width: none;
+  height: max-content;
+  width: max-content;
+}
+
+.option-tap{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.procount{
+  font-size: 18px;
+  font-weight: 400;
+}
+.procount>span{
+  color: #cc002f;
+  font-weight: 700;
+}
+.sort>.select-table{
+    width: 120px;
+    height: 34px;
+    font-size: 19px;
+    font-weight: 400;
+    border: 0;
+    background: url(../../assets/images/ArrowBottom.png) no-repeat 100% 50%;
+    background-size: clamp(10px, 3.1vw, 15px) auto;
+    margin: 0;
+    padding: 0 20px 0 8px;
+    line-height: 29px;
+    color: #333;
+    word-break: break-all;
+    font-weight: inherit;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+.StoreProduct >.product-card:nth-child(1) .product-img::after{
+  display: none;
+}

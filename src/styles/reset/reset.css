@@ -75,8 +75,11 @@
 }
 
 /* 2. HTML 및 body 기본 스타일 초기화 */
+html{
+	overflow-x: hidden;
+}
 html, body {
-  height: 100%;
+  height: max-content;
   font-family: Arial, Helvetica, sans-serif; /* 기본 폰트 설정 */
   color: #000; /* 기본 텍스트 색상 */
   background-color: #fff; /* 기본 배경색 */
@@ -96,6 +99,7 @@ a {
 
 button {
   cursor: pointer;
+	border: none;
 }
 
 input:focus{
