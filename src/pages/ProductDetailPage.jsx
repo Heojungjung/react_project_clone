@@ -88,12 +88,15 @@ const ProductDetailPage = () => {
   const [cartMessage, setCartMessage] = useState(""); 
 
   const handleCartClick = () => {
-    setCartMessage("장바구니에 상품이 담겼습니다!"); 
+    if (selectedOptions.length === 0) {
+      setCartMessage("상품 옵션을 선택해주세요!");
+    } else {
+      setCartMessage("장바구니에 상품이 담겼습니다!");
+    }
     setTimeout(() => {
       setCartMessage("");
     }, 1000);
   };
-
     const [activeTab, setActiveTab] = useState("상세정보"); 
   
     const handleSubTab = (tab) => {

@@ -1,10 +1,11 @@
 .NewProduct {
-  padding: 40px 20px;
+  padding: 40px 0px 40px 25px;
 }
 
 .NewProduct > .title {
   text-align: left;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .NewProduct > .title > h2 {
@@ -29,3 +30,105 @@
   background: #cc002f;
 }
 
+.swiper-container {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  justify-content: flex-start;
+}
+
+.NewProduct-swiper-slide{
+  width: 350px;
+}
+.NewProduct-item {
+  text-align: center;
+}
+
+.NewProduct-main{
+  width: 330px;
+}
+.NewProduct-main-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.NewProduct-main-img>img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.NewProduct-main-img>img:hover {
+  scale: 1.05;
+  transition: .5s;
+}
+.NewProduct-main-img::after {
+  position: absolute;
+  content: '신제품 추천!';
+  bottom: -5%;
+  left: 5%;
+  color: white;
+  background-color: #cc002f;
+  height: 25px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  z-index: 1;
+}
+.NewProduct-product-title {
+  font-size: 26px;
+  font-weight: 700;
+  width: 300px;
+  color: #333;
+  border-bottom: 1px solid #e9e9e9;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.NewProduct-product-subitem{
+  display: flex;
+  align-items: center;
+}
+.NewProduct-product-subitem>.NewProduct-product-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.NewProduct-product-subitem>.NewProduct-info-wrap{
+  padding: 20px;
+  word-break: keep-all;
+}
+
+.NewProduct-product-subitem>.NewProduct-info-wrap>.NewProduct-product-price-data{
+  display: flex;
+  gap: 3px;
+}
+.NewProduct-product-price-data>.NewProduct-product-salerate{
+  font-size: 16px;
+  color: #cc002f;
+  font-weight: 700;
+}
+.NewProduct-product-price-data>.NewProduct-product-original-price{
+  font-size: 16px;
+  color: #333333;
+  font-weight: 700;
+}
+.NewProduct-product-price-data>.NewProduct-product-price{
+  font-size: 16px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.NewProduct-product-subitem:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

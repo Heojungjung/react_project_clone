@@ -22,6 +22,9 @@ const HeaderSub = () => {
     }));
   };
 
+  const [cartCount, setCartCount] = useState(0); 
+
+
   const handleLogout = () => {
     setUserId(null); 
     alert("로그아웃 되었습니다.");
@@ -52,7 +55,7 @@ const HeaderSub = () => {
             <div className="shoppingcart">
               <Link to="/shopping-cart">
                 <img src="/assets/images/top_cart_btn_b.png" alt="cart" />
-                <div className="cart-num-sub"></div>
+                <div className="cart-num-sub">{cartCount > 0 ? cartCount : ''}</div>
               </Link>
             </div>
           </div>

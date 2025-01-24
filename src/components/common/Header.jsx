@@ -22,8 +22,10 @@ const Header = () => {
     }));
   };
 
+  const [cartCount, setCartCount] = useState(0); 
+
   const handleLogout = () => {
-    setUserId(null); // 로그아웃 시 사용자 ID를 null로 설정
+    setUserId(null); 
     alert("로그아웃 되었습니다.");
   };
   const categories = [
@@ -52,7 +54,7 @@ const Header = () => {
             <div className="shoppingcart">
               <Link to="/shopping-cart">
                 <img src="/assets/images/top_cart_btn_w.png" alt="cart" />
-                <div className="cart-num"></div>
+                <div className="cart-num">{cartCount > 0 ? cartCount : ''}</div>
               </Link>
             </div>
           </div>
