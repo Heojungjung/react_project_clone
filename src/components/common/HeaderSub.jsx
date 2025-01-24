@@ -36,6 +36,12 @@ const HeaderSub = () => {
     { id: 'fastmeal', name: '간편한끼', items: ['간편한끼1', '간편한끼2'] }
   ];
 
+  const addToCart = (item) => {
+    const existingCart = JSON.parse(localStorage.getItem('cartItems')) || [];
+    const updatedCart = [...existingCart, item];
+    localStorage.setItem('cartItems', JSON.stringify(updatedCart));
+    setCartCount(updatedCart.length); 
+  };
 
   return (
     <div className="header-sub">
