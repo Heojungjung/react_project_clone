@@ -77,7 +77,7 @@ const Homepage = () => {
             pagination={{ clickable: true }}
             autoplay={{
               delay: 3000,
-              disableOnInteraction: false, // 사용자가 슬라이드를 클릭해도 자동 재생 유지
+              disableOnInteraction: false, 
             }}
             effect="fade"
           >
@@ -127,8 +127,8 @@ const Homepage = () => {
                 <div
                   className="bar"
                   style={{
-                    width: `${progress}%`, // 진행 상태에 맞는 width 적용
-                    animationDuration: '3000ms', // 자동 슬라이드 진행 시간에 맞춰 설정
+                    width: `${progress}%`, 
+                    animationDuration: '3000ms',
                   }}
                 ></div>
               </div>
