@@ -39,7 +39,7 @@ const Header = () => {
     const existingCart = JSON.parse(localStorage.getItem('cartItems')) || [];
     const updatedCart = [...existingCart, item];
     localStorage.setItem('cartItems', JSON.stringify(updatedCart));
-    setCartCount(updatedCart.length); // 장바구니 개수 업데이트
+    setCartCount(updatedCart.length); 
   };
 
 
